@@ -23,10 +23,10 @@ public class Email {
 	public Email(String firstName,String lastName) {
 		this.firstName=firstName;
 		this.lastName=lastName;
-		System.out.println("Email Creater: "+ this.firstName +" "+this.lastName);
+		//System.out.println("Email Creater: "+ this.firstName +" "+this.lastName);
 		//Call method asking for the deprtmt returnn the deparmt
 		this.Department=setDeppartment();
-		System.out.println("Depsartment : "+ this.Department);
+		//System.out.println("Depsartment : "+ this.Department);
 		//call a methoe that returna random password
 		
 		
